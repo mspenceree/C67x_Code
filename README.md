@@ -1,8 +1,8 @@
 # C67x_Code
 
-Sample DSP C-code for frame-based IIR and FIR digital filters.
+Sample C-code for frame-based IIR and FIR digital filters.
 
-This is an example that exhibits one of my embedded software projects. It runs on Lyrtech Inc PADK DSP board, a commercial TMS320C672x based board. The code uses TI’s DSP/BIOS Real-time operating system (RTOS). Tool versions used: CCStudio v3.3 and DSP/BIOS v 5_31_02
+This is an example that exhibits one of my embedded software projects. It runs on the Lyrtech Inc PADK DSP board, a commercial TMS320C672x based board. The code uses TI’s Code Composer Studio and DSP/BIOS Real-time operating system (RTOS). Tool versions: CCStudio v3.3 and DSP/BIOS v 5_31_02
 
 ### Filter code functions from [`algorithms.c`](algorithms.c "algorithms.c"):
 
@@ -166,4 +166,4 @@ void FIR_apply( pFIR FIR_H, float *in, float *out )
 ```
 
 
-### No License is offered for this software at this time.
+### No License is offered at this time.
