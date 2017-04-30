@@ -165,5 +165,3 @@ void FIR_apply( pFIR FIR_H, float *in, float *out )
 }
 ```
 
-
-### No License is offered at this time.
